@@ -1,5 +1,6 @@
 import pytest
 
+from kt2.utils import calculate_grades_averages
 from util import *
 
 test_data = [(num, num % 2 == 0) for num in range(1, 11)]
@@ -32,3 +33,13 @@ test_data = [(1, 2, 2, 'isosceles'),
 @pytest.mark.parametrize('a, b, c, expected', test_data)
 def test_classify_triangle(a, b, c, expected):
     assert classify_triangle(a, b, c) == expected
+
+
+expected = [78.25, 48.0, 44.0, 47.0, 45.0, 46.0, 43.0, 50.0, 83.0, 97.0, 40.0, 45.0, 77.0, 90.0, 4.0, 40.0]
+actual = calculate_grades_averages()
+test_data = list(zip(actual, expected))
+
+
+@pytest.mark.parametrize('actual, expected', test_data)
+def test_calculate_grades_average(actual, expected):
+    assert actual == expected
