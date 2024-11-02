@@ -27,7 +27,10 @@ test_data = [(1, 2, 2, 'isosceles'),
 
              (1, 2, 3, 'various'),
              (3, 1, 2, 'various'),
-             (1, 3, 2, 'various')]
+             (1, 3, 2, 'various'),
+
+             (1, 3, 3, 'various'),
+             (1, 1, 3, 'various')]
 
 
 @pytest.mark.parametrize('a, b, c, expected', test_data)
