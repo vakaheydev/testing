@@ -1,0 +1,3 @@
+'GET example'
+200
+{'0': 2, 'sold': 11, 'string': 393, 'unavailable': 1, 'panding': 1, 'pending': 6, 'cat': 8, 'available': 209, 'available ': 2, 'free': 1, 'peric': 4}

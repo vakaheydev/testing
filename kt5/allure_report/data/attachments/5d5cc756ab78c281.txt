@@ -1,0 +1,3 @@
+'GET example'
+200
+{'id': 1, 'category': {'id': 1, 'name': 'fuzzstring'}, 'name': 'doggie', 'photoUrls': ['fuzzstring'], 'tags': [{'id': 1, 'name': 'fuzzstring'}], 'status': 'available'}

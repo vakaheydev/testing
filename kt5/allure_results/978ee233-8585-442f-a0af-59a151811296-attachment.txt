@@ -1,0 +1,3 @@
+'GET example'
+200
+{'id': 9223372036854761601, 'username': 'test', 'firstName': 'test_put', 'lastName': 'test_put', 'email': 'test_put@test.tt', 'password': 'test_put', 'phone': 'test_put', 'userStatus': 0}

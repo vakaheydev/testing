@@ -1,0 +1,2 @@
+'DELETE example'
+404

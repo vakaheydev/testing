@@ -1,0 +1,3 @@
+'POST example'
+200
+{'code': 200, 'type': 'unknown', 'message': 'ok'}
